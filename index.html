@@ -45,9 +45,9 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
                     <!--<li><a href="#program">Program</a></li>-->
                     <!--<li><a href="#posters">Poster Sessions</a></li>-->
                     <li><a href="#accepted">Accepted Papers</a></li>
-                    <!--<li><a href="#talks">Invited Talks</a></li>-->
+                    <li><a href="#talks">Invited Talks</a></li>
                     <!--<li><a href="#awards">Awards</a></li>-->
-                    <!--<li><a href="#pc">Program Committee</a></li>-->
+                    <li><a href="#pc">Program Committee</a></li>
                     <li><a href="#organization">Organization</a></li>
                     <!--<li><a href="#sponsor">Sponsorship</a></li>-->
                     <!--<li><a href="#ai_ethics">AI & Ethics</a></li>-->
@@ -529,24 +529,25 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 
 <!-- Six -->
 <!--
-    <section id="talks">
-        <div class="container">
-            <h3>Invited Talks</h3>
-            <h4 id='talks1'>Shimon Whiteson</h4>
-            <div style="width:100%;">
+<section id="talks">
+    <div class="container">
+        <h3>Invited Talks</h3>
+        <h4 id='talks1'>Marc Lanctot</h4>
+        <div style="width:100%;">
                 <div style="width:35%; float:left;"><img src="images/shimon.jpg" width="90%" image-orientation="from-image"></div>
                 <div style="width:65%; float:right;">
-                    <p><b>Affiliation:</b> University of Oxford, Waymo UK</p>
+                    <p><b>Affiliation:</b> Google Deepmind, London UK</p>
                     <p><b>Website:</b> <a href="http://whirl.cs.ox.ac.uk/index.html" target="_blank">http://whirl.cs.ox.ac.uk/index.html</a></p>
                 </div>
-            </div>                    
+            </div>
             
-            <p align="justify" class="title"><b>Title:</b> Title: Efficient & Realistic Simulation for Autonomous Driving
+            <p align="justify" class="title"><b>Title:</b>Game-Theoretic Approaches to Adaptive Learning Agents in Strategic Environments
             </p>
-            <p align="justify" class="abstract"><b>Abstract:</b> In this talk, I will discuss some of the key challenges in performing efficient and realistic simulation for autonomous driving, with a particular focus on how to train simulated agents that model the human road users, such as cars, cyclists, and pedestrians who share the road with autonomous vehicles. I will discuss the need for distributionally realistic agents and present two methods for training hierarchical agents to this end. Finally, I will discuss how the resulting simulator can be used to efficiently train a planning agent to control the autonomous vehicle itself.</p>
-            <p align="justify" class="bio"><b>Bio:</b> Shimon Whiteson is a Professor of Computer Science at the University of Oxford and the Head of Research at Waymo UK. His research focuses on deep reinforcement learning and learning from demonstration, with applications in robotics and video games. He completed his doctorate at the University of Texas at Austin in 2007. He spent eight years as an Assistant and then an Associate Professor at the University of Amsterdam before joining Oxford as an Associate Professor in 2015. He was awarded a Starting Grant from the European Research Council in 2014, a Google Faculty Research Award in 2017, and a JPMorgan Faculty Award in 2019.
+            <p align="justify" class="abstract"><b>Abstract:</b> In this talk, I will motivate the importance of adaptation in general environments and the role that game theory could play along the way. I will briefly talk about different ways of assessing the performance of agents that have been adopted by the community. Then, I will outline a few potential environments and evaluation schemes that could be used for such purposes. I will then talk in detail about a specific direction that embraces Meta-RL and Bayesian reasoning in a practical way, through the use of game-theoretic training regimes and applications to multiplayer games with partial observability. As a case study, I will show recent results on agents that have learned to play negotiation games through combined reinforcement learning and search, as well as observations from their interactions with human participants.
             </p>
-            <p class="entry-footer"></p>                   
+            <p align="justify" class="bio"><b>Bio:</b> text here.
+            </p>
+            <p class="entry-footer"></p>
 
             <h4 id='talks2'>Peter Stone</h4>
             <div style="width:100%;">
@@ -620,74 +621,83 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
             
             
             <!-- Seven -->
-            <!--
                 <section id="pc">
                     <div class="container">
                         <h3>Programe Committee</h3>         
                         
                         <ul>
-                            <li>Adrian Agogino, University of California Santa Cruz, USA</li>
-                            <li>Lucas Alegre, UFRGS, BRA</li>
-                            <li>Muhammad Arrasy-Rahman, The University of Texas at Austin, USA</li>
-                            <li>Raphael Avalos, Vrije Universiteit Brussel, BEL</li>
-                            <li>Angel Ayala, Universidade de Pernambuco, BRA</li>
-                            <li>Wolfram Barfuss, Tuebingen AI Center, University of Tuebingen, GER</li>
-                            <li>Rodrigo Bonini, Federal University of ABC (UFABC), BRA</li>
-                            <li>Roland Bouffanais, University of Ottawa, CAN</li>
-                            <li>Adam Callaghan, University of Galway, IRL</li>
-                            <li>Mustafa Mert Çelikok, Aalto University FIN</li>
-                            <li>Raphael Cobe, Sao Paulo State University, BRA</li>
-                            <li>Francisco Cruz, Deakin, AUS</li>
+                            <li>Adrian Agogino, University of Texas, Austin, USA</li>
+                            <li>Lucas Nunes Alegre, Federal University of Rio Grande do Sul, BRA</li>
+                            <li>Hicham Azmani, Vrije Universiteit Brussel, BEL</li>
+                            <li>Alexandra Cimpean, Vrije Universiteit Brussel, BEL</li>
+                            <li>Valentin Colliard, LIP6, FRA</li>
+                            <li>Elena Congeduti, Delft University of Technology, NLD</li>
+                            <li>Kyle Crandall, US Naval Research Lab, USA</li>
                             <li>Jiaxun Cui, The University of Texas at Austin, USA</li>
-                            <li>Felipe&nbsp;leno Da&nbsp;silva, LLNL, USA</li>
+                            <li>Ryan D'Orazio, Université de Montréal , CAN</li>
                             <li>Gaurav Dixit, Oregon State University, USA</li>
-                            <li>Florian Felten, SnT, University of Luxembourg, LUX</li>
-                            <li>Elias Fernández Domingos, MLG, Université Libre de Bruxelles; AI-lab, Vrije Universiteit Brussels, BEL</li>
+                            <li>Simone Drago, Polytechnic Institute of Milan, ITA</li>
+                            <li>Ishan Durugkar, Sony AI Inc., USA</li>
+                            <li>Jérôme Botoko Ekila, Vrije Universiteit Brussel, BEL</li>
+                            <li>Flint Xiaofeng Fan, National University of Singapore, SGP</li>
+                            <li>Jonathan G. Faris, University of Colorado at Boulder, USA</li>
+                            <li>Florian Felten, University of Luxemburg, LUX</li>
+                            <li>Rolando Fernandez, University of Texas at Austin, USA</li>
+                            <li>Timothy Flavin, University of Tulsa, USA</li>
+                            <li>Tim French, University of Western Australia, AUS</li>
                             <li>Julian Garcia, Monash University, AUS</li>
-                            <li>Ruben Glatt, Lawrence Livermore National Laboratory, USA</li>
-                            <li>Brent Harrison, University of Kentucky, USA</li>
-                            <li>Conor F Hayes, NUI Galway, IRL</li>
+                            <li>Conor F. Hayes, Lawrence Livermore National Labs, USA</li>
+                            <li>Whiyoung Jung, LG AI Research, KOR</li>
                             <li>Thommen Karimpanal George, Deakin University, AUS</li>
-                            <li>Sammie Katt, Northeastern University, USA</li>
-                            <li>Matt Knudson, NASA, USA</li>
-                            <li>Johan Källström, Linköping University, SWE</li>
-                            <li>Mikel Landajuela Larma, Lawrence Livermore National Laboratory, USA</li>
-                            <li>Junlin Lu, University of Galway, IRL</li>
-                            <li>Udari Madhushani, Princeton University, USA</li>
-                            <li>Patrick Mannion, National University of Ireland Galway, IRL</li>
+                            <li>Sammie Katt, Aalto University, FIN</li>
+                            <li>Ondřej Kubíček, Czech Technical University , CZE</li>
+                            <li>Marc Lanctot, Google DeepMind, CAN</li>
+                            <li>Pieter  Libin, Vrije Universiteit Brussel, BEL</li>
+                            <li>Chuang-Chieh Lin, Tamkang University, TPE</li>
+                            <li>Viliam Lisý , Czech Technical University in Prague, CZE</li>
+                            <li>Robert Loftin, University of Sheffield, GBR</li>
+                            <li>Junlin Lu, National University of Ireland, Galway, IRL</li>
+                            <li>Simon Lucas, Queen Mary University of London , GBR</li>
+                            <li>Patrick MacAlpine, Sony AI, USA</li>
                             <li>Karl Mason, University of Galway, IRL</li>
-                            <li>Nicolás Navarro-Guerrero, Deutsches Forschungszentrum für Künstliche Intelligenz (DFKI), GER</li>
-                            <li>Frans Oliehoek, Delft University of Technology, NLD</li>
+                            <li>Stephanie  Milani, Carnegie Mellon University , USA</li>
+                            <li>David Milec, Czech Technical University in Prague, CZE</li>
+                            <li>Nicole Orzan, University of Groningen, NLD</li>
                             <li>Bei Peng, University of Liverpool, GBR</li>
-                            <li>Roxana Radulescu, Vrije Universiteit Brussel, BEL</li>
-                            <li>Gabriel De O.  Ramos, Universidade do Vale do Rio dos Sinos, BRA</li>
+                            <li>Diego Perez Liebana , Queen Mary University of London , GBR</li>
+                            <li>Gang  Qiao, Siemens Healthineers, USA</li>
+                            <li>Ram Rachum, Bar-Ilan University, ISR</li>
+                            <li>Roxana Rădulescu, Vrije Universiteit Brussel, BEL</li>
+                            <li>Arrasy Rahman, University of Texas at Austin, USA</li>
+                            <li>Balaraman Ravindran, Indian Institute of Technology Madras, IND</li>
+                            <li>Bram M. Renting, Leiden University, NLD</li>
                             <li>Mathieu Reymond, Vrije Universiteit Brussel, BEL</li>
-                            <li>Diederik M.  Roijers, Vrije Universiteit Brussel &amp; HU University of Applied Sciences Utrecht, BEL</li>
+                            <li>Manel Rodriguez-Soto, Artificial Intelligence Research Institute, Spanish National Research Council, ESP</li>
+                            <li>Diederik Roijers, University of Amsterdam, NLD</li>
                             <li>Willem Röpke, Vrije Universiteit Brussel, BEL</li>
-                            <li>Fernando Santos, University of Amsterdam, NLD</li>
-                            <li>Miguel Solis, Universidad Andrés Bello, CHL</li>
-                            <li>Denis Steckelmacher, Vrije Universiteit Brussel, BEL</li>
+                            <li>Andries Rosseau, Vrije Universiteit Brussel, BEL</li>
+                            <li>Sam  Sokota, Carnegie Mellon University , USA</li>
+                            <li>Michal  Sustr, AIC FEE CTU , CZE</li>
                             <li>Paolo Turrini, University of Warwick, GBR</li>
                             <li>Peter Vamplew, Federation University Australia, AUS</li>
-                            <li>Miguel Vasco, INESC-ID, PRT</li>
-                            <li>Vítor V.  Vasconcelos, University of Amsterdam, NLD</li>
-                            <li>Caroline Wang, U Texas, USA</li>
-                            <li>Connor Yates, Oregon State University, USA</li>
-                            <li>Junpei Zhong, The Hong Kong Polytechnic University, HKG</li>
-                            <li>Changxi Zhu, Utrecht University, NLD</li>
+                            <li>Pascal Van der Vaart, Delft University of Technology, NLD</li>
+                            <li>Timothy Verstraeten, Vrije Universiteit Brussel, BEL</li>
+                            <li>Brian Zhang, Carnegie Mellon University , USA</li>
+                            <li>Weiye Zhao, Carnegie Mellon University , USA</li>
+                            <li>Junpei Zhong, Hong Kong Polytechnic University, HK</li>
                         </ul>
 
                     </div>
                 </section>
-            -->
+            
 
             
-            <!-- eight -->
-            <section id="organization">
-                <div class="container">
-                    <h3>Organization</h3>
-                    This year's workshop is organised by:
-                    <ul>
+                <!-- eight -->
+                <section id="organization">
+                    <div class="container">
+                        <h3>Organization</h3>
+                        This year's workshop is organised by:
+                        <ul>
                         <li><a href="https://avalos.fr" target="_blank">Raphael Avalos</a> (Vrije Universiteit Brussel, BE) </li>
                         <li>David Milec (Czech Technical University in Prague, CZ) </li>
                         <li>Henrik M&uuml;ller (Leibniz University Hannover, DE) </li>
